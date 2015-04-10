@@ -40,7 +40,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "inflection >= 0.2.0",
-        "pymongo >= 2.4.1"
+        "pymongo>=2.4.1,<3.0"
     ] + test_requirements,
     tests_require=test_requirements,
     test_suite="nose_collector"
